@@ -14,9 +14,51 @@ body {
     #team-members .member img {
       width: 200px;
       height: 200px; }
+    #team-members .member .imageBox {
+      position: relative;
+      float: left; }
+      #team-members .member .imageBox img {
+        width: 200px;
+        height: 200px; }
+    #team-members .member .imageBox .hoverImg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: none; }
+    #team-members .member .imageBox:hover .hoverImg {
+      display: block; }
+      #team-members .member .imageBox:hover .hoverImg img {
+        width: 200px;
+        height: 200px; }
     #team-members .member div .name {
       text-align: center; }
 
+/*
+.imageBox {
+    position: relative;
+    float: left;
+
+    img {
+      width: 200px;
+      height: 200px;
+    }
+}
+
+.imageBox .hoverImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.imageBox:hover .hoverImg {
+    display: block;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+}
+*/
 /* mixin example
 @mixin message {
   border-style: solid;
