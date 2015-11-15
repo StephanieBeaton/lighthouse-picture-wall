@@ -16,20 +16,24 @@ body {
       height: 200px; }
     #team-members .member .imageBox {
       position: relative;
-      float: left; }
+      float: left;
+      box-shadow: 10px 10px 5px #888888; }
       #team-members .member .imageBox img {
         width: 200px;
-        height: 200px; }
+        height: 200px;
+        border-radius: 25px; }
     #team-members .member .imageBox .hoverImg {
       position: absolute;
       left: 0;
       top: 0;
       display: none; }
     #team-members .member .imageBox:hover .hoverImg {
-      display: block; }
+      display: block;
+      box-shadow: 10px 10px 5px #888888; }
       #team-members .member .imageBox:hover .hoverImg img {
         width: 200px;
-        height: 200px; }
+        height: 200px;
+        border-radius: 25px; }
     #team-members .member div .name {
       text-align: center; }
 
