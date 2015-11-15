@@ -35,3 +35,7 @@ style.css
         .imageBox:hover .hoverImg {
             display: block;
         }
+
+
+ Resources for transitions
+http://robertnyman.com/css3/css-transitions/css-transitions-rotation.html

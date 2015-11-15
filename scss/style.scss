@@ -41,6 +41,23 @@ body {
         left: 0;
         top: 0;
         display: none;
+
+
+        /* Firefox */
+
+        -moz-transition: all 1s ease;
+
+        /* WebKit */
+
+        -webkit-transition: all 1s ease;
+
+        /* Opera */
+
+        -o-transition: all 1s ease;
+
+        /* Standard */
+
+        transition: all 1s ease;
     }
 
     .imageBox:hover .hoverImg {
@@ -50,7 +67,21 @@ body {
           height: 200px;
           border-radius: 25px;
         }
+
+
+        /* Firefox */
+        -moz-transform: scale(2) rotate(30deg) translate(50px);
+        /* WebKit */
+        -webkit-transform: scale(1.2) rotate(30deg) translate(50px);
+        /* Opera */
+        -o-transform: scale(2) rotate(30deg) translate(50px);
+        /* Standard */
+        transform: scale(2) rotate(30deg) translate(50px);
+
         box-shadow: 10px 10px 5px #888888;
+
+        z-index: 1000;
+
     }
 
     div {
