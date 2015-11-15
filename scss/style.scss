@@ -1,0 +1,43 @@
+$primaryColor: #FF0000;
+$primaryFont: Verdana;
+$memberColor: gray;
+body {
+  font-family: $primaryFont;
+  font-size: 1.5em;
+
+  h1 {
+     color: $primaryColor;
+  }
+}
+
+#team-members {
+  clear: both;
+
+  .member {
+    float: left;
+    /*border: 1px solid $memberColor;*/
+    margin: 10px;
+    padding: 6px;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+
+    div {
+      .name {
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+
+/* mixin example
+@mixin message {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 1em;
+  padding: 1em;
+}
+*/
